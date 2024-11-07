@@ -45,6 +45,9 @@ export const Navbar = () => {
                     <p>CONTACT</p>
                     <hr className=' w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
                 </NavLink>
+                <NavLink to='http://localhost:5174/' className='flex flex-col items-center gap-1'>
+                    <p className="text-[12px] border border-gray-400 px-3 rounded-full">Admin</p>
+                </NavLink>
             </ul>
 
             <div className='flex items-center gap-6'>
